@@ -44,7 +44,7 @@ object KtHttpV1 {
 
     private var okHttpClient: OkHttpClient = OkHttpClient()
     private var gson: Gson = Gson()
-    var baseUrl = "https://trendings.herokuapp.com"
+    var baseUrl = "https://github.com/trending"
 
     fun <T> create(service: Class<T>): T {
         return Proxy.newProxyInstance(
