@@ -11,6 +11,10 @@ import java.lang.reflect.Proxy
 import kotlin.reflect.jvm.javaMethod
 
 /**
+ *
+ * 12丨实战：用Kotlin实现一个网络请求框架KtHttp
+ *
+ *
  * 任何支持Get API
  * 以 GitHub Trendings API 为例：
  * https://trendings.herokuapp.com/repo?lang=java&since=weekly
